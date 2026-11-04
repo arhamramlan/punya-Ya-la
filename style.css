@@ -1,0 +1,103 @@
+.hero {
+	position: relative;
+	height: 100vh;
+	background: url('https://images.unsplash.com/photo-1655704705321-3ac52dc67f70?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D') center/cover no-repeat;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #F5F5F5;
+	text-align: center;
+	overflow: hidden;
+	font-family: poppins;
+}
+
+.hero-overlay {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(
+	 to top,
+	 rgba(139, 187, 146, 0.3),
+	 rgba(18, 84, 79, 0.4)
+ );
+}
+
+.hero-content {
+	position: relative;
+	max-width: 750px;
+}
+
+.badge {
+	display: inline-block;
+	background: rgba(135, 206, 250, 0.8);
+	padding: 7px 15px;
+	border-radius: 15px;
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+
+.hero h2 {
+	font-family: arial;
+	font-size: 45px;
+	font-weight: 600;
+	line-height: 1;
+	letter-spacing: 1px;
+}
+
+.hero h2 span {
+	background: rgb(159, 160, 255);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.hero p {
+	font-size: 19px;
+	margin: 35px;
+	color: whitesmoke;
+}
+
+.btn {
+	margin: 10px;
+	padding: 9px 17px;
+	border-radius: 15px;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.btn.primary {
+	color: rgb(159, 160, 255);
+	background: rgb(245, 245, 245);
+	font-weight: ;
+}
+
+.btn.primary:hover {
+	color: rgb(245, 245, 245);
+	background: rgb(159, 160, 255);
+	transition: 0.2s;
+}
+
+.btn.secondary {
+	color: rgb(245, 245, 245);
+	border: 1px solid rgb(245, 245, 245);
+	font-weight: ;
+}
+
+.btn.secondary:hover {
+	color: rgb(159, 160, 255);
+	background: rgb(245, 245, 245);
+	transition: 0.3s;
+}
+
+.countdown-box {
+	display: flex;
+	justify-content: center;
+	gap: 23px;
+}
+
+.countdown-box div {
+	background: rgb(118, 146, 255, 0.7);
+	backdrop-filter.blur(10px);
+	padding: 5px;
+	border-radius: 16px;
+	min-width: 70px;
+}
